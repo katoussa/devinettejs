@@ -20,7 +20,7 @@ var nbreEssaiMax = 6;
 
 do{
     var saisie = Number(prompt('entrez un nombre entre 1 et 100:'));
-    var nbreEssais = nbreEssais++;
+    nbreEssais++;
 
     if (saisie>solution){
         console.log(saisie + 'est trop grand');
