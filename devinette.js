@@ -33,8 +33,8 @@ do{
 }while ((saisie !== solution) && (nbreEssais < nbreEssaiMax))
 
 if (saisie === solution){
-    console.log('Bravo! La solution était bien' + solution + 'Vous avez trouvé en' + nbreEssais + 'coups.');
+    console.log('Bravo! La solution était bien ' + solution + ' Vous avez trouvé en ' + nbreEssais + ' coups.');
 }
 if (nbreEssais === nbreEssaiMax){
-    console.log("Désolé, vous n'avez pas trouvé. La solution était:" + solution);
+    console.log("Désolé, vous n'avez pas trouvé. La solution était: " + solution);
 }
