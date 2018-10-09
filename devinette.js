@@ -15,7 +15,7 @@ console.log("(La solution est " + solution + ")");
 
 // TODO : complétez le programme
 
-var nbreEssais;
+var nbreEssais = 0;
 var nbreEssaiMax = 6;
 
 do{
